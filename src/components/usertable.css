@@ -1,0 +1,142 @@
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(126, 87, 164);
+    padding: 2rem;
+}
+
+.card-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(126, 87, 164);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.search-input {
+    width: 85%;
+    padding: 0.75rem 1rem;
+    border: 2px solid rgb(223, 197, 249);
+    margin-bottom: 2rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.search-input:focus {
+    border-color: rgb(223, 197, 249);
+    box-shadow: 0 0 5pxrgb(126, 87, 164);
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(126, 87, 164);
+    margin-bottom: 1rem;
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.book-table th, .book-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.book-table th {
+    background-color: rgb(223, 197, 249);
+    color: #333;
+}
+
+.add-btn {
+    background-color: rgb(223, 197, 249);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-btn:hover {
+    background-color: rgb(223, 197, 249);
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.page-btn {
+    background-color: rgb(223, 197, 249);
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-btn:hover {
+    background-color: rgb(126, 87, 164);
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.book-item {
+    background-color: rgb(223, 197, 249);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-title {
+    font-weight: 600;
+}
+
+.book-author {
+    color: rgb(131, 124, 139);
+}
+
+.remove-btn {
+    background-color:rgb(126, 87, 164);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.remove-btn:hover {
+    background-color:  rgb(126, 87, 164);
+}
+
+.no-results {
+    color: #999;
+    margin-bottom: 2rem;
+    text-align: center;
+}
